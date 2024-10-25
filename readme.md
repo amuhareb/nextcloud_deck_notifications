@@ -34,6 +34,24 @@ Copy the .env.example file to .env and fill in the required settings.
     cp .env.example .env
     ```
 
+5. **set up a cron job (i used cpanel)**
+    - Go to cron jobs in cpanel
+    - Add a new cron job
+    - Set the command to `python /path/to/main.py` (could also be `python3` depending on your system)
+    - Set the frequency to every 5 minutes
+
+    alternatively, you could use crontab on your server
+
+    ```bash
+    crontab -e
+    ```
+
+    then add the following line to the file
+
+    ```bash
+    */5 * * * * /path/to/python /path/to/main.py
+    ```
+
 5. **Run the setup script**
 
     ```bash
