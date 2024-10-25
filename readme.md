@@ -62,3 +62,18 @@ Copy the .env.example file to .env and fill in the required settings.
     ```bash
     python main.py
     ```
+
+## Check it out:
+assign a card to a user in nextcloud deck and wait for the email notification
+<!-- media/assignment_example.jpg -->
+![Assignment Example](media/assignment_example.jpg)
+Here's what the email looks like
+<!-- media/email_example.jpg -->
+![Email Example](media/email_example.jpg)
+
+Feel free to modify any element of this. I realize that not everyone uses mysql for instance(though, i believe it's fully compatible with mariadb?)
+In a future version i might make a 'email_template' file that can be modified to change the email template instead of hardcoding it in the script. if you'd like to do that, please do.
+I hope it's helpful to you!
+
+## License
+none! do whatever you want with it. I'd appreciate a mention if you use it in a project though.
