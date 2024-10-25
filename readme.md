@@ -52,12 +52,12 @@ Copy the .env.example file to .env and fill in the required settings.
     */5 * * * * /path/to/python /path/to/main.py
     ```
 
-5. **Run the setup script**
+6. **Run the setup script**
 
     ```bash
     python setup.py
 
-6. **Run the script**
+7. **Run the script**
 
     ```bash
     python main.py
