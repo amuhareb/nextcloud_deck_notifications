@@ -16,7 +16,7 @@ A Python script that sends email notifications to users when they are assigned a
    git clone https://github.com/yourusername/nextcloud-deck-assignment-notifications.git
    cd nextcloud-deck-assignment-notifications
 
-2. **sSetup a Virtual Environment**
+2. **Setup a Virtual Environment**
 
    ```bash
    python3 -m venv venv
